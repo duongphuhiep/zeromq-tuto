@@ -1,0 +1,10 @@
+<service>
+	<id>netmqEchoServerService</id>
+	<name>ZeroMQ (NetMQ) echo Server</name>
+	<description>Service demo ZeroMQ / NetMQ server</description>
+	<executable>netmqEchoServerService</executable>
+	<logpath>D:\temp\Logs</logpath>
+	<log mode="roll-by-time">
+		<pattern>yyyy-MM-dd</pattern>
+	</log>
+</service>
